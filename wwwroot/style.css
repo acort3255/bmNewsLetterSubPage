@@ -100,7 +100,7 @@ a:hover {
 
 @media (max-width: 800px) {
     #sidebar {
-        width: 10;
+        width: auto;
         position: relative;
     } 
     #main {
