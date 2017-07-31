@@ -87,7 +87,7 @@ label {
 /* lists */
 ul.input-list {
   list-style: none;
-  margin: 0 -10px;
+  margin: 0 0 -20px -10px;
   padding: 0;
 }
 ul.input-list li {
@@ -207,7 +207,7 @@ input[type="text"]:focus {
     }
     section.welcome, section.form {
         position: relative;
-        margin:; 0;
+        margin: 0;
         border: 0;
         padding: 10px;
         width: 100%;

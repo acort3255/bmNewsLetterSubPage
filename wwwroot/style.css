@@ -37,7 +37,7 @@ h2 {
 
 #menubar {
     width: 200px;
-    float: left
+    float: left;
 }
 
 #main {
@@ -100,7 +100,7 @@ a:hover {
 
 @media (max-width: 800px) {
     #sidebar {
-        width: auto;
+        width: 10;
         position: relative;
     } 
     #main {
