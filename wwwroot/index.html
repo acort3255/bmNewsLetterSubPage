@@ -35,7 +35,7 @@
                 <input class="focus" type="text" placeholder="Enter Email" name="email" required>
             </li>
             <li></li>
-            <li>
+            <li id="submitBtn">
                 <div class="button raised green">
                 <div class="center" fit>Subcribe</div>
                 <paper-ripple fit></paper-ripple>
@@ -44,6 +44,14 @@
         </ul>
     </section>
 </body>
+<script>
+    function didClickOnSubmitBtn(evt) {
+        alert("Did click on submit button!");
+        document.getElementById("myForm").submit();
+    }
+    var submitBtn = document.getElementById("submitBtn");
+    submitBtn.addEventListener("click", didClickOnSubmitBtn, false);
+</script>
 </html>
 <?
 }
